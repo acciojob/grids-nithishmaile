@@ -1,2 +1,46 @@
 
 /* Your CSS Code here. */
+body{
+	padding:0px;
+	margin:0px;
+	height:100vh;
+	width:100vw;
+}
+.container{
+	border:5px solid rgb(4,255,4);
+	padding:5px;
+	min-height:100vh;
+	background-color:rgb(41,0,0);
+}
+.row{
+	border:5px solid rgb(255, 188, 188);
+	height:200px;
+}
+
+.row div{
+	border:2px dotted rgb(38,38,43);
+}
+
+#row1-column1{
+	background-color:teal;
+}
+#row1-column2{
+	background-color:thistle;
+}
+#row2-column1{
+	background-color:tomato;
+}
+#row2-column2{
+	background-color:turquoise;
+}
+#row3-column1{
+	background-color:violet;
+}
+#row3-column2{
+	background-color:yellowgreen;
+}
+
+.row2{
+	display:flex;
+	justify-content:space-between;
+}
